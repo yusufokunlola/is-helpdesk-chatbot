@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Hey",
+        "Is anyone available?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there, what IT issue can I help you with?",
+        "Greetings! How can I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you next time!",
+        "Bye! Feel free to reach out if you need further assistance."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime, let me know if there's anything else."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "How can I reset my password?",
+        "I forgot my password",
+        "Reset password",
+        "Can you help with a password issue?"
+      ],
+      "responses": [
+        "To reset your password, go to the selfcare portal, https://selfcare.gloworld.com and follow the instructions.",
+        "You can reset your password via HRMS portal."
+      ]
+    },
+    {
+      "tag": "network_issue",
+      "patterns": [
+        "I can't connect to the internet",
+        "The WiFi isn't working",
+        "Network issue",
+        "My connection is down"
+      ],
+      "responses": [
+        "Please try restarting your router or checking your network cables.",
+        "Ensure you are connected to the correct network. If the issue persists, contact IT support.",
+        "You might need to reconnect or check if the WiFi password has changed."
+      ]
+    },
+    {
+      "tag": "email_problem",
+      "patterns": [
+        "I'm not receiving emails",
+        "Email not working",
+        "Can't access my email",
+        "Email issues"
+      ],
+      "responses": [
+        "Check your spam folder and ensure your email address is correct.",
+        "Try logging out and back in to refresh your session.",
+        "If the problem persists, contact our IT department for assistance."
+      ]
+    },
+    {
+      "tag": "software_installation",
+      "patterns": [
+        "How do I install software?",
+        "I need help installing a program",
+        "Software installation assistance"
+      ],
+      "responses": [
+        "Go to the software download page on our intranet and follow the installation wizard.",
+        "Make sure you have administrator privileges before installing new software.",
+        "If you encounter any errors during installation, contact IT support."
+      ]
+    },
+    {
+      "tag": "hardware_problem",
+      "patterns": [
+        "My computer is not turning on",
+        "Device not working",
+        "Can't start my computer"
+      ],
+        "responses": [
+          "Try unplugging and replugging your computer into the power source.",
+          "Check if other devices work on the same power outlet.",
+          "If the issue persists, contact IT support for hardware diagnostics."
+        ]
+    },
+    {
+      "tag": "security_concern",
+      "patterns": [
+        "I think my account has been hacked",
+        "Security breach",
+        "Suspicious activity detected",
+        "Account compromised"
+      ],
+      "responses": [
+        "Please change your password immediately and report this incident to IT security.",
+        "We'll investigate the matter and notify you once the issue is resolved.",
+        "In the meantime, monitor your account activities closely."
+      ]
+    },
+    {
+      "tag": "printer_issue",
+      "patterns": [
+        "Printer is not printing",
+        "Printing problems",
+        "Can't print documents",
+        "Printer offline"
+      ],
+      "responses": [
+        "Check that the printer is properly connected and powered on.",
+        "Ensure you have sufficient paper and ink/toner supplies.",
+        "Try restarting the printer or contacting IT support for further assistance."
+      ]
+    },
+    {
+      "tag": "file_access",
+      "patterns": [
+        "I can't access my files",
+        "File sharing issues",
+        "Access denied",
+        "Missing files"
+      ],
+      "responses": [
+        "Verify that you have the necessary permissions to access those files.",
+        "Check if the file path is correct and try accessing it from another location.",
+        "If the issue persists, contact IT support for further assistance."
+      ]
+    },
+    {
+      "tag": "software_update",
+      "patterns": [
+        "How do I update software?",
+        "Need help with software update",
+        "Update my programs"
+      ],
+      "responses": [
+        "Go to 'Settings' > 'Software Update' to check for available updates.",
+        "Ensure your computer is connected to the internet for updates.",
+        "If you encounter any issues during update, contact IT support."
+      ]
+    },
+    {
+      "tag": "email_filtering",
+      "patterns": [
+        "My emails are being filtered incorrectly",
+        "Email filtering issues",
+        "Spam not blocked",
+        "Important emails missing"
+      ],
+      "responses": [
+        "Check your email filter settings and adjust them if necessary.",
+        "Consider whitelisting important senders to prevent filtering issues.",
+        "If the problem persists, contact IT support for assistance."
+      ]
+    },
+    {
+      "tag": "remote_access",
+      "patterns": [
+        "How do I access remote desktop?",
+        "Remote work setup",
+        "Connect to office computer"
+      ],
+      "responses": [
+        "Download and install the Remote Desktop Client from our intranet.",
+        "Ensure you have a stable internet connection for remote access.",
+        "Contact IT support if you encounter any connectivity issues."
+      ]
+    },
+    {
+      "tag": "backup_restore",
+      "patterns": [
+        "I need help with backups",
+        "Restore deleted files",
+        "Backup and restore assistance"
+      ],
+      "responses": [
+        "Go to 'Settings' > 'Backup' to create or manage your backup schedule.",
+        "For file restoration, use the built-in recovery options in your software.",
+        "If you require advanced assistance, please contact IT support."
+      ]
+    },
+    {
+      "tag": "email_forwarding",
+      "patterns": [
+        "Can't forward emails",
+        "Email forwarding not working",
+        "Forward messages issue"
+      ],
+      "responses": [
+        "Check that the recipient's email address is correct.",
+        "Verify that email forwarding is enabled in your account settings.",
+        "If the issue persists, contact IT support for further assistance."
+      ]
+    },
+    {
+      "tag": "software_uninstallation",
+      "patterns": [
+        "How do I uninstall software?",
+        "Need help removing programs",
+        "Uninstall software"
+      ],
+      "responses": [
+        "Go to 'Settings' > 'Apps' to find and remove unwanted applications.",
+        "Ensure you have administrator privileges before uninstalling software.",
+        "If you encounter any errors during uninstallation, contact IT support."
+      ]
+    },
+    {
+      "tag": "outlook_email_setup",
+      "patterns": [
+        "How do I set up Outlook on computer?",
+        "Need help with Outlook email configuration on computer",
+        "Outlook setup guide on computer"
+      ],
+      "responses": [
+        "Go to https://mail.gloworld.com/owa and sign in with your official email account.",
+        "Ensure the Outlook app is installed on your system, then launch it.",
+        "For further help, contact the IS Helpdesk."
+      ]
+    },
+    {
+      "tag": "outlook_phone_setup",
+      "patterns": [
+        "How do I set up Outlook on my phone?",
+        "Outlook mobile app setup",
+        "Configure Outlook email on phone"
+      ],
+      "responses": [
+        "Go to https://mail.gloworld.com/owa and sign in with your official email account.",
+        "Download the Outlook app from your device's app store then follow the instructions.",
+        "Sign in with your Microsoft account or work email address."
+      ]
+    },
+    {
+      "tag": "audio_cpu_settings",
+      "patterns": [
+        "Audio not working",
+        "CPU usage high when playing audio",
+        "Audio lagging",
+        "Sound not playing"
+      ],
+      "responses": [
+        "Close unnecessary background applications to reduce CPU usage.",
+        "Update your sound drivers and audio software to the latest version.",
+        "Adjust audio settings in your operating system control panel."
+      ]
+    },
+    {
+      "tag": "new_employee_account_creation",
+      "patterns": [
+        "Create new employee account",
+        "New hire onboarding",
+        "Employee account setup"
+      ],
+      "responses": [
+        "Contact HR department to initiate the account creation process.",
+        "Provide HR department with required employee details for account setup."
+      ]
+    },
+    {
+      "tag": "time_date_reset",
+      "patterns": [
+        "Reset time and date",
+        "Incorrect system time",
+        "Date and time not updating"
+      ],
+      "responses": [
+        "To reset time and date, open Settings > System > Date & time.",
+        "Turn off 'Set time automatically', select correct time zone, then turn it back on.",
+        "After changing, restart your computer and verify the time is correct."
+      ]
+    },
+    {
+      "tag": "cpu_speed_issues",
+      "patterns": [
+        "Computer running slow",
+        "High CPU usage",
+        "Performance issues"
+      ],
+      "responses": [
+        "Close unnecessary apps and background processes.",
+        "Run Disk Cleanup and defragment your hard drive.",
+        "Consider upgrading RAM or switching to SSD for better performance."
+      ]
+    },
+    {
+      "tag": "battery_drain_fast",
+      "patterns": [
+        "Laptop battery draining quickly",
+        "Battery life short",
+        "Fast battery drain"
+      ],
+      "responses": [
+        "Lower screen brightness and turn off unnecessary features.",
+        "Update battery drivers and adjust power settings.",
+        "Consider replacing the battery if it's old."
+      ]
+    },
+    {
+      "tag": "keyboard_not_working",
+      "patterns": [
+        "Keyboard not typing",
+        "Keys not responding",
+        "Typing issues"
+      ],
+        "responses": [
+          "Try unplugging and replugging the keyboard.",
+          "Check keyboard drivers and update them if necessary.",
+          "If external, try connecting the keyboard to another computer."
+        ]
+    },
+    {
+      "tag": "mouse_not_working",
+      "patterns": [
+        "Mouse not moving",
+        "Right-click not working",
+        "Mouse issues"
+      ],
+      "responses": [
+        "Try restarting your computer or unplugging and replugging the mouse.",
+        "Check mouse drivers and update them if needed.",
+        "If wireless, check batteries and ensure receiver is properly connected."
+      ]
+    }
+  ]
+}

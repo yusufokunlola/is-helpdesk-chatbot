@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from chat import get_response
 import os
 import nltk
-nltk.download('punkt')
+nltk.data.path.append('./nltk_data')
 
 app = Flask(__name__)
 
